@@ -1,0 +1,335 @@
+/* ===================common css start=================== */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/* ===================common css end=================== */
+/* ===================navbar css start=================== */
+nav{
+    padding-top: 35px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+nav .logo{
+    width: 50%;
+}
+nav .navigation ul{
+    display: flex;
+    column-gap: 60px;
+}
+nav .navigation ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    transition: .4s;
+}
+nav .navigation ul li a:hover{
+    color: #000;
+}
+/* ===================navbar css end=================== */
+/* ===================banner css start=================== */
+#banner{
+    background-image: url(images/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 462px 0px;
+}
+#banner .content p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #FFC178;
+    margin-bottom: 38px;
+}
+#banner .content h1 span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+#banner .content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 858px;
+}
+/* ===================banner css end=================== */
+/* ===================about us css start=================== */
+#about-us{
+    margin-top: 326px;
+}
+#about-us .flex{
+    column-gap: 139px;
+}
+#about-us .image{
+    width: 50%;
+}
+#about-us .content{
+    width: 50%;
+}
+#about-us .content h3{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-top: 70px;
+}
+#about-us .content h2{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:  #FFFFFF;
+    margin: 19px 0;
+}
+#about-us .content p{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  #FFFFFF;
+    margin-bottom: 66px;
+    margin-top: 32px;
+    line-height: 32px;
+}
+#about-us .content a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#FBD784;
+    margin-top: 66px;
+    line-height: 25px;
+}
+/* ===================about us css end=================== */
+/* ===================information css start=================== */
+#information{
+    margin-top: 255px;
+    margin-bottom: 295px;
+}
+#information .bg{
+    background-image: url(images/information.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#information .bg .overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) -0.01%, rgba(0, 0, 0, 0) 69.38%), linear-gradient(360deg, rgba(0, 0, 0, 0.2) -0.01%, rgba(0, 0, 0, 0) 100%);
+    padding-top: 559px;
+    padding-bottom: 32px;
+    /* text-align: center; */
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+#information .bg .overlay .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+}
+#information .bg .overlay .content h3{
+    font-size: 18px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    letter-spacing: 6px;
+    color: #FBD784;
+    line-height: 25px;
+}
+#information .bg .overlay .content h2{
+    width: 932px;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 87px;
+    margin: 14px 0px ;
+}
+#information .bg .overlay .content p{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 32px;
+    width: 893px;
+}
+#information .bg .overlay .content a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-top: 26px ;
+    color: #FBD784;
+}
+/* ===================information css end===================*/
+/* ========================culture css start===============*/
+#culture{
+    margin-bottom: 199px;
+    color: white;
+}
+#culture .flex{
+    column-gap: 40px;
+}
+#culture .image{
+    width: 50%;
+    order: 1;
+}
+#culture .content{
+    width: 50%;
+}
+#culture .content h3{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    padding-bottom: 19px;
+}
+#culture .content h2{
+    width: 663px;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 87px;
+    margin: 19px 0;
+}
+#culture .content p{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 32px;
+    width: 655px;
+    margin-bottom: 47px;
+}
+#culture .content a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+/* ========================culture css end===============*/
+/* ========================footer-top css start===============*/
+footer .footer-top .flex .footer-logo{
+    width: 50%;
+}
+footer .footer-top .flex .content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    column-gap: 18px;
+}
+footer .footer-top .flex .content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+}
+footer .footer-top .flex .content a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 18px 67px;
+    background-color: #FFA343;
+    color: black;
+    border-radius: 10px;
+}
+/* ========================footer-top css end===============*/
+/* ========================footer-left css start===============*/
+footer .footer-bottom{
+    margin-top: 73px;
+}
+footer .footer-bottom .flex{
+    column-gap: 275px;
+}
+footer .footer-bottom .flex .item1{
+    width: 28%;
+}
+footer .footer-bottom .flex .item1 h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    width: 405px;
+    margin-bottom: 49px;
+}
+footer .footer-bottom .flex .item1 .icons{
+    margin-top: 34px;
+}
+footer .footer-bottom .flex .item1 .icons a{
+   font-size: 33px;
+   margin-right: 29px;
+   transition: .4s;
+   background: -webkit-linear-gradient(#eee, #333);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+   border-radius: 50px;      
+}
+footer .footer-bottom .flex .item1 .icons .face:hover{
+    color: blue;
+}
+/* ========================footer-left css end===============*/
+/* ========================footer-right css start===============*/
+footer .footer-bottom .flex .item2{
+    width: 62%;
+    display: flex;
+}
+footer .footer-bottom .flex .item2 .item{
+    width: 30%;
+    height: 300px;
+}
+footer .footer-bottom .flex .item2 .item h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFD1A0;
+    margin-bottom: 20px;
+}
+footer .footer-bottom .flex .item2 .item ul li{
+    margin-bottom: 10px;
+}
+footer .footer-bottom .flex .item2 .item ul li a{
+    font-weight: 400;
+    font-size: 19px;
+    color: white;
+    transition: .4s;
+}
+/* ====================copyright css================== */
+footer .copyright{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 153px;
+    margin-bottom: 304px;
+}
+
+
+/* ========================footer-right css end===============*/
+            
